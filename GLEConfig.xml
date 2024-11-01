@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2089" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Flex 50 WLA" version="1.0.9" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="50,100,200,300,500,1000,2000,5000,10000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,pt_BR"
+              skbPlatformVersion="1.4.0"
+              stateful="N" 
+	          merchandisePrize="N">
+              
+            <!-- LNZ €1 -->
+            <!--<paymodel modelid="300-2089-001"  revealId="2089" revealVersionId="2089"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Flex 50 WLA : 300-2089-001"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2089-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2089-001" clienttype="HTML" configcode="PHLP"/>   -->
+
+            <!-- BRZ $0.50, $1, $2, $5, 10, $20, $50 & $100 -->-->
+            <paymodel modelid="300-2089-002"  revealId="2089" revealVersionId="2089"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Flex 50 WLA : 300-2089-002"
+                      hibethold="35.00" lobethold="35.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2089-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2089-002" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- GA $0.50, $1, $2, $3, $5 & 10 -->
+            <paymodel modelid="300-2089-003"  revealId="4092" revealVersionId="4092"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Flex 50 WLA : 300-2089-003"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2089-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2089-003" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- KY $0.50, $1, $2, $3, $5, 10 & $20 -->
+            <paymodel modelid="300-2089-004"  revealId="4092" revealVersionId="4092"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Flex 50 WLA : 300-2089-004"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2089-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2089-004" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- RI $0.50, $1, $2, $3, $5, 10 & $20 -->
+            <paymodel modelid="300-2089-005"  revealId="4092" revealVersionId="4092"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Flex 50 WLA : 300-2089-005"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2089-005" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2089-005" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="BRL" amount="0.01,0.03"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
